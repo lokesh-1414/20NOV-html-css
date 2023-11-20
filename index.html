@@ -4,17 +4,381 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1eaf330485.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="header-top-wrapper">
+          <div class="header-top">
+            <div class="left">
+              <p class="mb-0">FOLLOW US:</p>
+              <div class="social-icons">
+                <a class="social-icon icons" href="#"><i class="fa-brands fa-square-instagram"
+                ></i></i></a>
+                <a class="social-icon icons" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="social-icon icons" href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                <a class="social-icon icons" href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+              </div>
+              <div class="mobile">
+                <i class="fa-solid fa-phone icons"></i>
+                <span>1-677-124-44227</span>
+              </div>
+            </div>
+            <div class="right">
+              <img class="language-flag" src="./assets/britain.png" alt="GB-flag">
 
+              <form>
+                <select name="lang" id="language">
+                  <option value="english" selected>ENGLISH</option>
+                  <option value="french">FRENCH</option>
+                  <option value="german">GERMAN</option>
+                </select>
+              </form>
+              <a href="#" class="mb-0">SIGN IN</a>
+            </div>
+          </div>
+          <div class="banner-wrapper">
+            <img class="banner-img" src="./assets/banner.jpg" alt="banner">
+            <div class="banner">
+              <div class="main-nav">
+                <div class="logo-div">
+                  <a href="#"><img class="logo" src="./assets/logo.png" alt="logo"></a>
+                </div>
+                <input type="checkbox" id="checkbox-toggle">
+                <label for="checkbox-toggle" class="hamburger">&#9776;</label>
+                <div class="navigation">
+                  <nav>
+                    <ul class="nav-menu">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          tours
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          blog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          elements
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </nav>
+                  <i class="fa-solid fa-bag-shopping icons-shop" ></i>
+                  <i class="fa-solid fa-magnifying-glass icons-shop" ></i>
+                  <label class="hamburger-expand">&#9776;</label>
+                </div>
+              </div>
+              <div class="banner-text">
+                <h1 class="banner-heading">awe-inspiring settings</h1>
+                <p class="banner-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem, doloribus sint at asperiores cum ipsa
+                  quam aliquid. Deleni
+                </p>
+              </div>
+            </div>
+          </div>
+      </header>
+    <main>
+        <div class="search-location-wrapper">
+            <div class="search-location">
+              <form class="form-inline">
+                <div class="input-group">
+                  <input type="text" class="form-control p-3" placeholder="WHERE TO?" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="date" class="form-control" placeholder="MONTH" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="text" class="form-control" placeholder="TRAVEL TYPE" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn search-btn p-3" type="button" id="button-addon2">Find now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        <section class="container hero">
+            <div class="d-flex hero-section gap-4">
+              <div>
+                <div>
+                  <img
+                    src="./assets/insta-3.jpg"
+                    class="hero-image-above-left"
+                    alt="hero-image-above-left"
+                  />
+                </div>
+                <div
+                  class="d-flex justify-content-between hero-image-below-left-container"
+                >
+                  <img
+                    src="/assets/image_1.jpg"
+                    class="hero-image-below-left"
+                    alt="img1"
+                  />
+                  <img
+                    src="./assets/image_2.jpg"
+                    class="hero-image-below-left"
+                    alt="img2"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="p-5 bg-white mb-2">
+                  <h4 class="hero-heading">DEALS & DISCOUNTS</h4>
+                  <p class="hero-para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel
+                    sagittis ligula. Lorem consectetur adipiscing ipsum. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Morbi vel sagittis
+                    ligula. Lorem consectetur
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between gap-4">
+                  <div class="left-image"></div>
+                  <div class="right-image">
+                    <img
+                      src="./assets/insta-5.jpg"
+                      class="hero-image-right mb-2"
+                      alt="hero-image-right"
+                    />
+                    <img
+                      src="./assets/insta-4.jpg"
+                      class="hero-image-right mt-2"
+                      alt="hero-image-right"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <section class="tour">
+            <img class="home-image" src="./assets/home-image.jpg" alt="home image">
+            <div class="wrapper">
+                <div class="tour-type">
+                    <div class="tour-heading">
+                        <h2>Tour Type</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corporis animi nihil hic vero
+                            cumque labore repellat nemo corrupti voluptatem quis, aut aliquid doloribus nisi!</p>
+                    </div>
 
+                    <section class="tour-card">
+                        <div class="card-detail">
+                            <img src="./assets/tower.png" alt="tower image">
+                            <h4>Eiffel tower</h4>
+                        </div>
+                        <div class="card-detail">
+                            <img src="./assets/tower.png" alt="tower image">
+                            <h4>Eiffel tower</h4>
+                        </div>
+                        <div class="card-detail">
+                            <img src="./assets/tower.png" alt="tower image">
+                            <h4>Eiffel tower</h4>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <article class="blog">
+            <div class="blog-heading">
+                <h2>Blog post</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi praesentium quam vero expedita quas
+                    veniam velit rerum veritatis accusantium, voluptates optio necessitatibus dolore quidem adipisci!
+                </p>
+            </div>
+            <div class="blog-card">
+                <div class="card-container">
+                    <img src="./assets/tour.jpeg" alt="tour">
+                    <div class="card-description">
+                        <p>Santorini have conqueroed a corner of your imagination before you'have set eyes on it Lorem
+                            ipsum dolor sit.</p>
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i>April 5,2016</span>
+                        <span class="card-comment"><i class="fa fa-comment" aria-hidden="true"></i>2 comments</span>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <img src="./assets/tour.jpeg" alt="tour">
+                    <div class="card-description">
+                        <p>Santorini have conqueroed a corner of your imagination before you'have set eyes on it Lorem
+                            ipsum dolor sit.</p>
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i>April 5,2016</span>
+                        <span class="card-comment"><i class="fa fa-comment" aria-hidden="true"></i>2 comments</span>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <img src="./assets/tour.jpeg" alt="tour">
+                    <div class="card-description">
+                        <p>Santorini have conqueroed a corner of your imagination before you'have set eyes on it Lorem
+                            ipsum dolor sit.</p>
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i>April 5,2016</span>
+                        <span class="card-comment"><i class="fa fa-comment" aria-hidden="true"></i>2 comments</span>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <img src="./assets/tour.jpeg" alt="tour">
+                    <div class="card-description">
+                        <p>Santorini have conqueroed a corner of your imagination before you'have set eyes on it Lorem
+                            ipsum dolor sit.</p>
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i>April 5,2016</span>
+                        <span class="card-comment"><i class="fa fa-comment" aria-hidden="true"></i>2 comments</span>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <img src="./assets/tour.jpeg" alt="tour">
+                    <div class="card-description">
+                        <p>Santorini have conqueroed a corner of your imagination before you'have set eyes on it Lorem
+                            ipsum dolor sit.</p>
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i>April 5,2016</span>
+                        <span class="card-comment"><i class="fa fa-comment" aria-hidden="true"></i>2 comments</span>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <img src="./assets/tour.jpeg" alt="tour">
+                    <div class="card-description">
+                        <p>Santorini have conqueroed a corner of your imagination before you'have set eyes on it Lorem
+                            ipsum dolor sit.</p>
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i>April 5,2016</span>
+                        <span class="card-comment"><i class="fa fa-comment" aria-hidden="true"></i>2 comments</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h4 class="logo-text mb-4">
+                        <span class="logo-blue">GO</span>travel
+                    </h4>
+                    <p class="footer-para">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel
+                        sagittis ligula. Lorem consectetur adipiscing ipsum.
+                    </p>
+                    <div class="footer-socials">
+                        <span class="py-2"><i class="fas fa-phone me-3"></i>+3872537586221</span>
+                        <span class="py-2"><i class="fas fa-location-dot me-4"></i>Eight Avenue 487, New
+                            York</span>
+                        <span class="py-2">
+                            <i class="fas fa-envelope me-3"></i>
+                            gotravel@qoed.com
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h4 class="footer-heading d-flex align-items-center">
+                        <span class="icon d-flex align-items-center justify-content-center mb-5"></span>LATEST NEWS
+                    </h4>
+                    <ul class="list-unstyled footer-text">
+                        <li>
+                            <a href="#" class="py-1 d-block">Water & Rocks, Discovering the Beauty of New Zealand</a>
+                        </li>
+                        <li>
+                            <a href="#" class="py-1 d-block footer-text-small">05.04.2016</a>
+                        </li>
+                        <li>
+                            <a href="#" class="py-1 d-block">Updates: People who work Overseas and Fly For Free</a>
+                        </li>
+                        <li>
+                            <a href="#" class="py-1 d-block footer-text-small">05.04.2016</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h4 class="footer-heading d-flex align-items-center">
+                        <span class="icon d-flex align-items-center justify-content-center mb-5"></span>FOLLOW US
+                    </h4>
+                    <ul class="list-unstyled footer-text">
+                        <li>
+                            <a href="#" class="py-1 d-block">Couldn't connect with Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                    <h4 class="footer-heading d-flex align-items-center">
+                        <span class="icon d-flex align-items-center justify-content-center mb-5"></span>INSTAGRAM FEED
+                    </h4>
+                    <div class="block-24">
+                        <div class="row no-gutters">
+                            <div class="col-4 col-md-4 p-1">
+                                <a href="#" class="img " style="background-image: url(./assets/insta-2.jpeg)"></a>
+                            </div>
+                            <div class="col-4 col-md-4 p-1">
+                                <a href="#" class="img " style="background-image: url(assets/insta-2.jpeg)"></a>
+                            </div>
+                            <div class="col-4 col-md-4 p-1">
+                                <a href="#" class="img " style="background-image: url(./assets/insta-2.jpeg)"></a>
+                            </div>
+                            <div class="col-4 col-md-4 p-1">
+                                <a href="#" class="img " style="background-image: url(assets/insta-2.jpeg)"></a>
+                            </div>
+                            <div class="col-4 col-md-4 p-1">
+                                <a href="#" class="img " style="background-image: url(./assets/insta-2.jpeg)"></a>
+                            </div>
+                            <div class="col-4 col-md-4 p-1">
+                                <a href="#" class="img " style="background-image: url(assets/insta-2.jpeg)"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
 </body>
+
 </html>
