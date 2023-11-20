@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  @font-face {
+    font-family: ;
+    src: url();
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  @media screen and (max-width: 1024px) {
+    html{
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}
+  
+
+@media screen and (max-width: 425px) {
+   html{
+    font-size: 10px;
+   }
+}
+
+@media screen and (max-width: 375px) {
+}
